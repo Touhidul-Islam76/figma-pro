@@ -1,0 +1,276 @@
+/* header start */
+body{
+    background-color:#121619;
+    margin: 0;
+    /* height:100vh; */
+}
+.menubar a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.menubar{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+.h-link .book{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    padding:8px;
+    border-radius: 16px;
+}
+
+.h-link{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+/* header end */
+
+/* section1 start */
+.section1{
+    background-image: url(section1img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+/* section1 end */
+
+/* section2 start */
+.section2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.sec2-con{
+    color: #fff; 
+}
+
+.sec2-content{
+    text-align:left;
+}
+.sec2-content h1{
+    font-size: 50px;
+}
+.sec2-con2{
+    margin-bottom: 48px;
+}
+
+.sec2-content a{
+    text-decoration: none;
+    color: #fff;
+    border: #fff 1px solid;
+    padding:10px;
+    background-color: #000000;
+    border-radius: 22px;
+    margin-bottom: 20px;
+}
+/* section2 end */
+
+/* section3 start */
+.section3{
+    background-color: black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.sec3-con{
+    color: #fff; 
+}
+
+.sec3-content{
+    text-align: center;
+}
+.sec3-content h1{
+    font-size: 50px;
+}
+.sec3-con3{
+    margin-bottom: 48px;
+}
+.section3-right{
+    padding:177px;
+}
+
+.sec3-content a{
+    text-decoration: none;
+    color: #fff;
+    border: #fff 1px solid;
+    padding:10px;
+    background-color: #000000;
+    border-radius: 22px;
+    margin-bottom: 20px;
+}
+/* section3 end */
+
+/* section4 start */
+.section4{
+    background-color:#111619;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.sec4-content{
+    margin-right: 78px;
+    width:100%;
+}
+/* section4 end */
+
+/* section5 start */
+.section5{
+    background-image: url(/img/sec5-img.jpeg);
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.left-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+
+
+.right-head{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    justify-content: center;
+}
+/* section5 end */
+
+/* section6 start */
+.section6{
+    background-color:#121619;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.sec6-con{
+    color:white;
+    text-align: center;
+}
+
+.regi-form{
+    display: flex;
+    gap:10px;
+}
+.inform{
+    background-color: #121619;
+    border: #fff 1px solid;
+    padding:10px;
+    border-radius: 22px;
+    color:#fff;
+    gap:10px;
+}
+/* section6 end */
+
+/* section7 start */
+.section7-right{
+    padding:20px;
+}
+/* section7 end */
+
+/* section8 start */
+.section8{
+    background-color:#121619;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.sec8-con{
+    color:white;
+    padding:40px;
+}
+.sec8-imgwarp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.indata{
+    background-color: #121619;
+    border: #fff 1px solid;
+    padding:10px;
+    border-radius: 22px;
+    color:#fff;
+    gap:20px;
+}
+
+.sec8-left-regiform{
+    color:#fff;
+}
+.sec8-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+/* section8 end */
+
+/* footer start */
+.foot-head-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.foot-head-con p{
+    color: #fff;
+}
+
+.foot-service-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:40px;
+    color: #fff;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    color: #fff;
+}
+
+footer{
+    padding:120px 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    flex-direction: column;
+    margin-top: 40px;
+   
+}
+
+/* footer end */
